@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/users-db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    pool-size: 30
